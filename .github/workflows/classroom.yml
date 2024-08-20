@@ -21,6 +21,7 @@ jobs:
         setup-command: npm install
         command: npm run test-00
         timeout: 10
+        max-score: 100
     - name: h01-exercise
       id: h01-exercise
       uses: classroom-resources/autograding-command-grader@v1
@@ -29,6 +30,7 @@ jobs:
         setup-command: npm install
         command: npm run test-01
         timeout: 10
+        max-score: 100
     - name: h02-exercise
       id: h02-exercise
       uses: classroom-resources/autograding-command-grader@v1
@@ -37,6 +39,7 @@ jobs:
         setup-command: npm install
         command: npm run test-02
         timeout: 10
+        max-score: 100
     - name: h03-exercise
       id: h03-exercise
       uses: classroom-resources/autograding-command-grader@v1
@@ -45,6 +48,7 @@ jobs:
         setup-command: npm install
         command: npm run test-03
         timeout: 10
+        max-score: 100
     - name: h04-exercise
       id: h04-exercise
       uses: classroom-resources/autograding-command-grader@v1
@@ -53,6 +57,7 @@ jobs:
         setup-command: npm install
         command: npm run test-04
         timeout: 10
+        max-score: 100
     - name: h05-exercise
       id: h05-exercise
       uses: classroom-resources/autograding-command-grader@v1
@@ -61,6 +66,7 @@ jobs:
         setup-command: npm install
         command: npm run test-05
         timeout: 10
+        max-score: 100
     - name: h06-exercise
       id: h06-exercise
       uses: classroom-resources/autograding-command-grader@v1
@@ -69,6 +75,7 @@ jobs:
         setup-command: npm install
         command: npm run test-06
         timeout: 10
+        max-score: 100
     - name: h07-exercise
       id: h07-exercise
       uses: classroom-resources/autograding-command-grader@v1
@@ -77,6 +84,7 @@ jobs:
         setup-command: npm install
         command: npm run test-07
         timeout: 10
+        max-score: 100
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
       env:
